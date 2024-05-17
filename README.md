@@ -1,3 +1,9 @@
+# CMake Build Flow
+mkdir build
+cd build
+cmake CMAKE_EXPORT_COMPILE_COMMANDS ..
+make -j8
+
 # x86-64-minimal-JIT-compiler-Cpp
 Writing a minimal x86-64 JIT compiler in C++
 
